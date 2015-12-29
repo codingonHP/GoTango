@@ -9,8 +9,8 @@
     <ProjectGuid>{25007FE1-8710-4700-99B7-611C1B306AAC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GoTango.Api.Tests</RootNamespace>
-    <AssemblyName>GoTango.Api.Tests</AssemblyName>
+    <RootNamespace>ADAS.GoTango.Api.Tests</RootNamespace>
+    <AssemblyName>ADAS.GoTango.Api.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -118,6 +118,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GoTango.Api\ADAS.GoTango.Api.csproj">
+      <Project>{84A17154-0336-4583-BE33-D80F5DD39038}</Project>
+      <Name>ADAS.GoTango.Api</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
