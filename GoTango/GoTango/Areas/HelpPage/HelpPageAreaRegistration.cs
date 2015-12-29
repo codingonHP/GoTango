@@ -1,7 +1,8 @@
 using System.Web.Http;
 using System.Web.Mvc;
+using ADAS.GoTango.WebClient.Areas.HelpPage.App_Start;
 
-namespace GoTango.Areas.HelpPage
+namespace ADAS.GoTango.WebClient.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

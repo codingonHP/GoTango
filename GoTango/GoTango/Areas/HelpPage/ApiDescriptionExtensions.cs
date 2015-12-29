@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace GoTango.Areas.HelpPage
+namespace ADAS.GoTango.WebClient.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

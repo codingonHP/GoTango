@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace GoTango.Areas.HelpPage.ModelDescriptions
+namespace ADAS.GoTango.WebClient.Areas.HelpPage.ModelDescriptions
 {
     internal static class ModelNameHelper
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace GoTango.Areas.HelpPage.ModelDescriptions
+namespace ADAS.GoTango.WebClient.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Use this attribute to change the name of the <see cref="ModelDescription"/> generated for a type.

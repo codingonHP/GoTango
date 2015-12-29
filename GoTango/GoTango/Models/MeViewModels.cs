@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-
-namespace GoTango.Models
+﻿namespace ADAS.GoTango.WebClient.Models
 {
     // Models returned by MeController actions.
     public class GetViewModel

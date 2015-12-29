@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace GoTango.Areas.HelpPage.ModelDescriptions
+namespace ADAS.GoTango.WebClient.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {

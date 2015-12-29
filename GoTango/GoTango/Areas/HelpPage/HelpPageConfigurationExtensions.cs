@@ -11,10 +11,11 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using GoTango.Areas.HelpPage.ModelDescriptions;
-using GoTango.Areas.HelpPage.Models;
+using ADAS.GoTango.WebClient.Areas.HelpPage.ModelDescriptions;
+using ADAS.GoTango.WebClient.Areas.HelpPage.Models;
+using ADAS.GoTango.WebClient.Areas.HelpPage.SampleGeneration;
 
-namespace GoTango.Areas.HelpPage
+namespace ADAS.GoTango.WebClient.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

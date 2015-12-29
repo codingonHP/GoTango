@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace GoTango
+namespace ADAS.GoTango.WebClient
 {
     public class FilterConfig
     {

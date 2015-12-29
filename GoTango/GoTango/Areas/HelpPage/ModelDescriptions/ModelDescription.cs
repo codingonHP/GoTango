@@ -1,6 +1,6 @@
 using System;
 
-namespace GoTango.Areas.HelpPage.ModelDescriptions
+namespace ADAS.GoTango.WebClient.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

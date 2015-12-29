@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using GoTango.Areas.HelpPage.ModelDescriptions;
-using GoTango.Areas.HelpPage.Models;
+using ADAS.GoTango.WebClient.Areas.HelpPage.ModelDescriptions;
+using ADAS.GoTango.WebClient.Areas.HelpPage.Models;
 
-namespace GoTango.Areas.HelpPage.Controllers
+namespace ADAS.GoTango.WebClient.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using System.Xml.XPath;
-using GoTango.Areas.HelpPage.ModelDescriptions;
+using ADAS.GoTango.WebClient.Areas.HelpPage.ModelDescriptions;
 
-namespace GoTango.Areas.HelpPage
+namespace ADAS.GoTango.WebClient.Areas.HelpPage
 {
     /// <summary>
     /// A custom <see cref="IDocumentationProvider"/> that reads the API documentation from an XML documentation file.

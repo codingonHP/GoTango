@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using GoTango.Areas.HelpPage.ModelDescriptions;
+using ADAS.GoTango.WebClient.Areas.HelpPage.ModelDescriptions;
 
-namespace GoTango.Areas.HelpPage.Models
+namespace ADAS.GoTango.WebClient.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.

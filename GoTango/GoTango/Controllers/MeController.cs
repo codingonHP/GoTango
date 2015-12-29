@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using System.Web;
+﻿using System.Web;
 using System.Web.Http;
+using ADAS.GoTango.WebClient.Models;
 using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
-using Owin;
-using GoTango.Models;
 
-namespace GoTango.Controllers
+namespace ADAS.GoTango.WebClient.Controllers
 {
     [Authorize]
     public class MeController : ApiController

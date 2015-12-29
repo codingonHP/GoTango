@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango", "GoTango\ADAS.GoTango.csproj", "{7CD41262-425D-4446-B805-C3696197F0F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.WebClient", "GoTango\ADAS.GoTango.WebClient.csproj", "{7CD41262-425D-4446-B805-C3696197F0F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.AuthServ", "GoTango.AuthServ\ADAS.GoTango.AuthServ.csproj", "{E07A6C7C-FC26-4728-A065-E62F6FA89F7C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.Api", "GoTango.Api\ADAS.GoTango.Api.csproj", "{84A17154-0336-4583-BE33-D80F5DD39038}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.Api.Tests", "GoTango.Api.Tests\ADAS.GoTango.Api.Tests.csproj", "{25007FE1-8710-4700-99B7-611C1B306AAC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.Business", "GoTango.Business\ADAS.GoTango.Business.csproj", "{EB272399-6EED-4271-98C2-227E9F869FB0}"
 EndProject
@@ -29,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.DAL", "GoTango
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.AuthServ.ConfigAsm", "ADAS.GoTango.AuthServ.ConfigAsm\ADAS.GoTango.AuthServ.ConfigAsm.csproj", "{063D6ADE-0666-442B-B9CA-D11FC200D1FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.WebApiService", "ADAS.GoTango.WebApiService\ADAS.GoTango.WebApiService.csproj", "{8FA72E78-5D05-4822-9CB0-8BCF9D11655E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.WebApiService.Tests", "ADAS.GoTango.WebApiService.Tests\ADAS.GoTango.WebApiService.Tests.csproj", "{0390BC0D-FD4B-4768-AE75-7CC725C75B4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,14 +43,6 @@ Global
 		{E07A6C7C-FC26-4728-A065-E62F6FA89F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E07A6C7C-FC26-4728-A065-E62F6FA89F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E07A6C7C-FC26-4728-A065-E62F6FA89F7C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84A17154-0336-4583-BE33-D80F5DD39038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84A17154-0336-4583-BE33-D80F5DD39038}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84A17154-0336-4583-BE33-D80F5DD39038}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84A17154-0336-4583-BE33-D80F5DD39038}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25007FE1-8710-4700-99B7-611C1B306AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25007FE1-8710-4700-99B7-611C1B306AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25007FE1-8710-4700-99B7-611C1B306AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25007FE1-8710-4700-99B7-611C1B306AAC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EB272399-6EED-4271-98C2-227E9F869FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB272399-6EED-4271-98C2-227E9F869FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB272399-6EED-4271-98C2-227E9F869FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +79,14 @@ Global
 		{063D6ADE-0666-442B-B9CA-D11FC200D1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{063D6ADE-0666-442B-B9CA-D11FC200D1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{063D6ADE-0666-442B-B9CA-D11FC200D1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA72E78-5D05-4822-9CB0-8BCF9D11655E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA72E78-5D05-4822-9CB0-8BCF9D11655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA72E78-5D05-4822-9CB0-8BCF9D11655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA72E78-5D05-4822-9CB0-8BCF9D11655E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0390BC0D-FD4B-4768-AE75-7CC725C75B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0390BC0D-FD4B-4768-AE75-7CC725C75B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0390BC0D-FD4B-4768-AE75-7CC725C75B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0390BC0D-FD4B-4768-AE75-7CC725C75B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

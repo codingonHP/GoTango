@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.Owin.Security.OAuth;
 
-namespace GoTango.Providers
+namespace ADAS.GoTango.WebClient.Providers
 {
     public class ApplicationOAuthProvider : OAuthAuthorizationServerProvider
     {
