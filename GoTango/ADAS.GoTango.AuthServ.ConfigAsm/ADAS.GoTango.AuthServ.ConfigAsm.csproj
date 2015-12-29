@@ -62,6 +62,12 @@
   <ItemGroup>
     <Content Include="IMPORTANT.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GoTango.Helpers\ADAS.GoTango.Helpers.csproj">
+      <Project>{DFCD9FE8-0E86-49BF-B82B-8BA6FB66DE4B}</Project>
+      <Name>ADAS.GoTango.Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

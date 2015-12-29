@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ADAS.GoTango.Helpers;
 using Thinktecture.IdentityServer.Core.Models;
 
 namespace ADAS.GoTango.AuthServ.ConfigAsm.Config
@@ -18,7 +19,7 @@ namespace ADAS.GoTango.AuthServ.ConfigAsm.Config
 
                 RedirectUris = new List<string>
                 {
-                    "https://localhost:44300/"
+                    GoTangoConstants.RedirectUri
                 }
             }
         };

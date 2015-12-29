@@ -135,6 +135,10 @@
       <Project>{063d6ade-0666-442b-b9ca-d11fc200d1fc}</Project>
       <Name>ADAS.GoTango.AuthServ.ConfigAsm</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GoTango.Helpers\ADAS.GoTango.Helpers.csproj">
+      <Project>{DFCD9FE8-0E86-49BF-B82B-8BA6FB66DE4B}</Project>
+      <Name>ADAS.GoTango.Helpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

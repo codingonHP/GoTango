@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 using ADAS.GoTango.AuthServ.ConfigAsm.Config;
+using ADAS.GoTango.Helpers;
 using Microsoft.Owin;
+using Microsoft.Owin.Security.Cookies;
+using Microsoft.Owin.Security.OpenIdConnect;
 using Owin;
 using Thinktecture.IdentityServer.Core.Configuration;
 using Thinktecture.IdentityServer.Core.Models;
@@ -22,6 +25,21 @@ namespace ADAS.GoTango.AuthServ
                                                   clients: Clients.GetAllClients(),
                                                   scopes: StandardScopes.All)
             }));
+
+            app.UseCookieAuthentication(new CookieAuthenticationOptions
+            {
+                AuthenticationType = "Cookies"
+            });
+
+            app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
+            {
+                Authority = GoTangoConstants.AuthorityUrl,
+                ClientId = "mvc",
+                RedirectUri = GoTangoConstants.RedirectUri,
+                ResponseType = "id_token",
+                SignInAsAuthenticationType = "Cookies"
+            });
+
 
 
         }
