@@ -2,7 +2,7 @@
 
 namespace ADAS.GoTango.WebApiService.Controllers
 {
-    [RequireHttps]
+   
     public class HomeController : Controller
     {
         public ActionResult Index()
