@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.Extension", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.DAL", "GoTango.DataAccessLayer\ADAS.GoTango.DAL.csproj", "{4D86734C-B951-43A8-87E5-098F6EADE003}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADAS.GoTango.AuthServ.ConfigAsm", "ADAS.GoTango.AuthServ.ConfigAsm\ADAS.GoTango.AuthServ.ConfigAsm.csproj", "{063D6ADE-0666-442B-B9CA-D11FC200D1FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{4D86734C-B951-43A8-87E5-098F6EADE003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D86734C-B951-43A8-87E5-098F6EADE003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D86734C-B951-43A8-87E5-098F6EADE003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063D6ADE-0666-442B-B9CA-D11FC200D1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063D6ADE-0666-442B-B9CA-D11FC200D1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063D6ADE-0666-442B-B9CA-D11FC200D1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063D6ADE-0666-442B-B9CA-D11FC200D1FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

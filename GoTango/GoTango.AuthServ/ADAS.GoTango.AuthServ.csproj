@@ -107,12 +107,21 @@
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Certificates\DevRoot.cer" />
+    <Content Include="Certificates\idsrv3test.cer" />
+    <Content Include="Certificates\idsrv3test.pfx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ADAS.GoTango.AuthServ.ConfigAsm\ADAS.GoTango.AuthServ.ConfigAsm.csproj">
+      <Project>{063d6ade-0666-442b-b9ca-d11fc200d1fc}</Project>
+      <Name>ADAS.GoTango.AuthServ.ConfigAsm</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -129,7 +138,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51340</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:44317/</IISUrl>
+          <IISUrl>https://localhost:44301/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
